@@ -4,6 +4,7 @@ from rest_framework.permissions import IsAuthenticated
 from rest_framework.response import Response
 from rest_framework import status
 
+from .models import Document
 from .serializers import DocumentSerializer
 from .services import (
     create_document,
